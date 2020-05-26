@@ -13,6 +13,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 source 'https://rubygems.org'
 gem 'unicorn'
+gem 'graphql', '<= 1.7'
+gem 'graphiql-rails', '<= 1.5'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -31,3 +33,4 @@ group :test do
   gem 'chromedriver-helper'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
